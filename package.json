@@ -10,7 +10,7 @@
   "type": "module",
   "license": "ISC",
   "scripts": {
-    "clean": "rimraf coverage build tmp",
+    "clean": "rimraf coverage build tmp dist",
     "build": "tsc --project .",
     "test": "vitest",
     "test:coverage": "vitest --coverage"
