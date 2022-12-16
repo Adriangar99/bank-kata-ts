@@ -8,10 +8,6 @@
     "node": ">= 18"
   },
   "type": "module",
-  "contributors": [
-    "Daniel Ramos <danielramosacosta@hotmail.com>",
-    "Ruben Moya <rmoyarodriguez@gmail.com>"
-  ],
   "license": "ISC",
   "scripts": {
     "clean": "rimraf coverage build tmp",
