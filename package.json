@@ -1,0 +1,29 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic boilerplate project with Typecript",
+  "main": "build/main.js",
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 18"
+  },
+  "type": "module",
+  "contributors": [
+    "Daniel Ramos <danielramosacosta@hotmail.com>",
+    "Ruben Moya <rmoyarodriguez@gmail.com>"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "clean": "rimraf coverage build tmp",
+    "build": "tsc --project .",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.15",
+    "prettier": "2.8.1",
+    "rimraf": "3.0.2",
+    "typescript": "4.9.4",
+    "vitest": "0.25.8"
+  }
+}
